@@ -66,7 +66,7 @@ nav a {
 }
 
 .masthead {
-  height: 130vh;
+  height: 120vh;
 
   /* provide the gradient color*/
   background-image: url("https://source.unsplash.com/BtbjCFUvBXs/1920x1080");
@@ -110,7 +110,7 @@ nav a {
   -o-background-size: cover;
   background-size: cover;
   /* provides the vertical skew*/
-  z-index: -9;
+  z-index: -3;
   -webkit-transform: skewY(-5deg);
   -moz-transform: skewY(-5deg);
   -ms-transform: skewY(-5deg);
@@ -123,8 +123,8 @@ nav a {
 }
 
 /* this resets the h1 text back horizontal*/
-.masthead h1 {
-  z-index: 9;
+.masthead > * {
+  z-index: 3;
   -webkit-transform: skewY(5deg);
   -moz-transform: skewY(5deg);
   -ms-transform: skewY(5deg);
@@ -132,12 +132,28 @@ nav a {
   transform: skewY(5deg);
 }
 
-/* this resets the 'p' text back horizontal*/
-.masthead p {
-  z-index: 9;
-  -webkit-transform: skewY(5deg);
-  -moz-transform: skewY(5deg);
-  -ms-transform: skewY(5deg);
-  -o-transform: skewY(5deg);
-  transform: skewY(5deg);
+.masthead img {
+  padding-top: 10%;
+  padding-bottom: -10%;
+  width: 50%;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .masthead img {
+    width: 100%;
+    height: auto;
+    padding-top: 30%;
+  }
+
+  .masthead {
+    height: 150vh;
+  }
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
