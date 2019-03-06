@@ -4,153 +4,92 @@
     <title>Bootstrap Example</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/masterStyles.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <style>
-      /* Remove the navbar's default margin-bottom and rounded borders */
-      .navbar {
-        margin-bottom: 0;
-        border-radius: 0;
-      }
-
-      /* Add a gray background color and some padding to the footer */
-      footer {
-        background-color: #f2f2f2;
-        padding: 25px;
-      }
-
-      .header {
-        z-index: 9;
-        position: relative;
-        height: 100vh;
-      }
-
-      .header .skew:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        overflow: visible;
-        width: 100%;
-        height: 90vh;
-
-        background: -moz-linear-gradient(
-          left,
-          rgba(0, 161, 228, 1) 0%,
-          rgba(0, 255, 102, 1) 100%
-        );
-        background: -webkit-gradient(
-          left top,
-          right top,
-          color-stop(0%, rgba(0, 161, 228, 1)),
-          color-stop(100%, rgba(0, 255, 102, 1))
-        );
-        background: -webkit-linear-gradient(
-          left,
-          rgba(0, 161, 228, 1) 0%,
-          rgba(0, 255, 102, 1) 100%
-        );
-        background: -o-linear-gradient(
-          left,
-          rgba(0, 161, 228, 1) 0%,
-          rgba(0, 255, 102, 1) 100%
-        );
-        background: -ms-linear-gradient(
-          left,
-          rgba(0, 161, 228, 1) 0%,
-          rgba(0, 255, 102, 1) 100%
-        );
-        background: linear-gradient(
-          to right,
-          rgba(0, 161, 228, 1) 0%,
-          rgba(0, 255, 102, 1) 100%
-        );
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a1e4', endColorstr='#00ff66', GradientType=1 );
-
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-
-        z-index: -9;
-        -webkit-transform: skewY(-2deg);
-        -moz-transform: skewY(-2deg);
-        -ms-transform: skewY(-2deg);
-        -o-transform: skewY(-2deg);
-        transform: skewY(-2deg);
-        -webkit-backface-visibility: hidden;
-        backface-visibility: initial;
-      }
-
-      .header .skew .header-inner {
-        padding: 20px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      .logo {
-        margin-top: 100px;
-      }
-
-      .logo a {
-        color: #fff;
-        text-decoration: none;
-      }
-
-      .icon-bar {
-        background-color: #dc0073;
-      }
-    </style>
   </head>
-  <body>
-    <header class="header" id="header">
-      <nav class="navbar">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button
-              type="button"
-              class="navbar-toggle"
-              data-toggle="collapse"
-              data-target="#myNavbar"
-            >
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Portfolio</a>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Gallery</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="#"
-                  ><span class="glyphicon glyphicon-log-in"></span> Login</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+  <!-- Navigation -->
+  <nav
+    class="navbar navbar-expand-lg navbar-light bg-lignt shadow fixed-top nav-start"
+  >
+    <div class="container">
+      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarResponsive"
+        aria-controls="navbarResponsive"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-      <div class="skew">
-        <div class="header-inner text-center">
-          <h1 class="logo">
-            <a href="/">Prepare to meet you Developer</a>
+  <!-- Full Page Image Header with Vertically Centered Content -->
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+          <h1 class="font-weight-light">
+            Vertically Centered Masthead Content
           </h1>
+          <p class="lead">
+            I’m a software developer with a specialty in JavaScript and Python.
+            My software development career grew from a curiosity of wanting to
+            learn about penetration testing. I quickly found myself staying up
+            late, reading everything I could find to get a better understanding
+            of the subject. I soon realized that any legit penetration tester
+            was writing their own code to achieve the goals they were seeking.
+            Fast forward to today and that curiosity has turned into a passion
+            for software development!
+          </p>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
+  <body>
+    <!-- Page Content -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="font-weight-light">Page Content</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
+          ab nulla dolorum autem nisi officiis blanditiis voluptatem hic,
+          assumenda aspernatur facere ipsam nemo ratione cumque magnam enim
+          fugiat reprehenderit expedita.
+        </p>
+      </div>
+    </section>
 
-    <div class="container-fluid bg-3 text-center">
+    <section class="container-fluid bg-3 text-center">
       <h3>Some of my Work</h3>
       <br />
       <div class="row">
@@ -191,10 +130,10 @@
           />
         </div>
       </div>
-    </div>
+    </section>
     <br />
 
-    <div class="container-fluid bg-3 text-center">
+    <section class="container-fluid bg-3 text-center">
       <div class="row">
         <div class="col-sm-3">
           <p>Some text..</p>
@@ -233,11 +172,112 @@
           />
         </div>
       </div>
-    </div>
-    <br /><br />
+    </section>
 
-    <footer class="container-fluid text-center">
-      <p>Footer Text</p>
-    </footer>
+    <section class="container-fluid bg-3 text-center">
+      <h3>Some of my Work</h3>
+      <br />
+      <div class="row">
+        <div class="col-sm-3">
+          <p>Some text..</p>
+          <img
+            src="https://placehold.it/150x80?text=IMAGE"
+            class="img-responsive"
+            style="width:100%"
+            alt="Image"
+          />
+        </div>
+        <div class="col-sm-3">
+          <p>Some text..</p>
+          <img
+            src="https://placehold.it/150x80?text=IMAGE"
+            class="img-responsive"
+            style="width:100%"
+            alt="Image"
+          />
+        </div>
+        <div class="col-sm-3">
+          <p>Some text..</p>
+          <img
+            src="https://placehold.it/150x80?text=IMAGE"
+            class="img-responsive"
+            style="width:100%"
+            alt="Image"
+          />
+        </div>
+        <div class="col-sm-3">
+          <p>Some text..</p>
+          <img
+            src="https://placehold.it/150x80?text=IMAGE"
+            class="img-responsive"
+            style="width:100%"
+            alt="Image"
+          />
+        </div>
+      </div>
+    </section>
+    <br />
+
+    <section class="container-fluid bg-3 text-center">
+      <div class="row">
+        <div class="col-sm-3">
+          <p>Some text..</p>
+          <img
+            src="https://placehold.it/150x80?text=IMAGE"
+            class="img-responsive"
+            style="width:100%"
+            alt="Image"
+          />
+        </div>
+        <div class="col-sm-3">
+          <p>Some text..</p>
+          <img
+            src="https://placehold.it/150x80?text=IMAGE"
+            class="img-responsive"
+            style="width:100%"
+            alt="Image"
+          />
+        </div>
+        <div class="col-sm-3">
+          <p>Some text..</p>
+          <img
+            src="https://placehold.it/150x80?text=IMAGE"
+            class="img-responsive"
+            style="width:100%"
+            alt="Image"
+          />
+        </div>
+        <div class="col-sm-3">
+          <p>Some text..</p>
+          <img
+            src="https://placehold.it/150x80?text=IMAGE"
+            class="img-responsive"
+            style="width:100%"
+            alt="Image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <br /><br />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/jQueryFunctions.js"></script>
   </body>
+  <footer class="container-fluid text-center">
+    <p>Footer Text</p>
+  </footer>
 </html>

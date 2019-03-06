@@ -1,0 +1,143 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.nav-finish {
+  transition: background-color 0.4s ease-out;
+  background: whitesmoke !important;
+  color: grey !important;
+  box-shadow: 0px 4px 7px #777;
+}
+
+nav a {
+  color: red !important;
+}
+
+.navbar-toggler {
+  border-color: rgb(255, 102, 203) !important;
+}
+.nav-start {
+  height: 70px;
+  box-shadow: 0px 4px 7px #777;
+
+  /* provide the gradient color*/
+  background: -moz-linear-gradient(
+    left,
+    rgba(0, 161, 228, 1) 0%,
+    rgba(0, 255, 102, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(0, 161, 228, 1)),
+    color-stop(100%, rgba(0, 255, 102, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(0, 161, 228, 1) 0%,
+    rgba(0, 255, 102, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(0, 161, 228, 1) 0%,
+    rgba(0, 255, 102, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(0, 161, 228, 1) 0%,
+    rgba(0, 255, 102, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(0, 161, 228, 1) 0%,
+    rgba(0, 255, 102, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a1e4', endColorstr='#00ff66', GradientType=1 );
+}
+
+.lead {
+  font-size: 1vw;
+  color: white;
+  display: flex;
+}
+
+.masthead {
+  height: 130vh;
+
+  /* provide the gradient color*/
+  background-image: url("https://source.unsplash.com/BtbjCFUvBXs/1920x1080");
+  background-position: center;
+  background-repeat: no-repeat;
+  background: -moz-linear-gradient(
+    left,
+    rgba(0, 161, 228, 1) 0%,
+    rgba(0, 255, 102, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(0, 161, 228, 1)),
+    color-stop(100%, rgba(0, 255, 102, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(0, 161, 228, 1) 0%,
+    rgba(0, 255, 102, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(0, 161, 228, 1) 0%,
+    rgba(0, 255, 102, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(0, 161, 228, 1) 0%,
+    rgba(0, 255, 102, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(0, 161, 228, 1) 0%,
+    rgba(0, 255, 102, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a1e4', endColorstr='#00ff66', GradientType=1 );
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* provides the vertical skew*/
+  z-index: -9;
+  -webkit-transform: skewY(-5deg);
+  -moz-transform: skewY(-5deg);
+  -ms-transform: skewY(-5deg);
+  -o-transform: skewY(-5deg);
+  transform: skewY(-5deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: initial;
+
+  position: relative;
+}
+
+/* this resets the h1 text back horizontal*/
+.masthead h1 {
+  z-index: 9;
+  -webkit-transform: skewY(5deg);
+  -moz-transform: skewY(5deg);
+  -ms-transform: skewY(5deg);
+  -o-transform: skewY(5deg);
+  transform: skewY(5deg);
+}
+
+/* this resets the 'p' text back horizontal*/
+.masthead p {
+  z-index: 9;
+  -webkit-transform: skewY(5deg);
+  -moz-transform: skewY(5deg);
+  -ms-transform: skewY(5deg);
+  -o-transform: skewY(5deg);
+  transform: skewY(5deg);
+}
