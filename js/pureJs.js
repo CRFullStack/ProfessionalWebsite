@@ -53,6 +53,6 @@ window.onload = function() {
   // INJECT CSS
   var css = document.createElement("style");
   css.type = "text/css";
-  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #F00}"; // this line controls the color of the vertical blinking bar in the laptop.
+  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #dc0073}"; // this line controls the color of the vertical blinking bar in the laptop.
   document.body.appendChild(css);
 };
