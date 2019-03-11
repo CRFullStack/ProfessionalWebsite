@@ -1,0 +1,27 @@
+{
+  "name": "prowebsetup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd entry\\p-w-frontend && npm start",
+    "server": "cd entry && npm start",
+    "start": "concurrently - kill-others \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CRFullStack/ProfessionalWebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CRFullStack/ProfessionalWebsite/issues"
+  },
+  "homepage": "https://github.com/CRFullStack/ProfessionalWebsite#readme"
+}
