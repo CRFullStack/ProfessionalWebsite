@@ -10,12 +10,7 @@ class About extends Component {
           <div className="bg-3 text-center">
             <div className="row align-items-start about">
               <div className="col col-2 ">
-                <img
-                  id="sonic"
-                  src={snoopy}
-                  className="img-responsive"
-                  alt="My Image"
-                />
+                <img src={snoopy} className="img-responsive" alt="My Image" />
               </div>
               <div className="col text-hide">hidden</div>
               <div className="col text-hide">hidden</div>
@@ -37,12 +32,18 @@ class About extends Component {
                   also legacy tools like Java and Spring. I'll keep this topic
                   limited to web development.
                 </p>
-                <img className="rounded-circle" src={chris} alt="" />
+                <img
+                  className="rounded-circle img-responsive"
+                  src={chris}
+                  alt=""
+                />
               </div>
               <div className="col text-hide">hidden</div>
             </div>
           </div>
         </div>
+        <br />
+        <br />
         <br />
         <br />
       </section>

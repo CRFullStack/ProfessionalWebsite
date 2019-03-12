@@ -4,6 +4,7 @@ import Nav from "./components/nav";
 import About from "./components/about";
 import Services from "./components/services";
 import Clients from "./components/clients";
+import Contact from "./components/contact";
 import "./myWork/css/masterStyles.css";
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
         <Services />
         <About />
         <Clients />
+        <Contact />
       </div>
     );
   }

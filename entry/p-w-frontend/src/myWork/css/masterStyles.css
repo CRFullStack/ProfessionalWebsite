@@ -186,9 +186,10 @@ header p {
 
 .about .me img {
   border-radius: 60%;
-  width: 40% !important;
+  width: 30% !important;
   height: auto;
-  padding: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .services img {
@@ -236,7 +237,7 @@ footer {
   }
 
   .masthead {
-    height: 150vh;
+    height: 180vh;
   }
 
   .nav-start {
@@ -258,10 +259,17 @@ footer {
     text-align: justify;
     font-family: "Open Sans Condensed", sans-serif;
     overflow: hidden;
+    margin: -10%;
   }
 
   .services img {
     width: 15em !important;
+    height: auto;
+  }
+
+  .about .me img {
+    border-radius: 60%;
+    width: 50% !important;
     height: auto;
   }
 }
