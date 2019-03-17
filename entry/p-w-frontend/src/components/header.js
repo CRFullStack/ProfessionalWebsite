@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import laptop from "../myWork/assest/images/laptop.png";
 import "../myWork/js/pureJs";
 
 class Header extends Component {
@@ -12,9 +13,7 @@ class Header extends Component {
               <img
                 id="mastImg"
                 className="img-responsive"
-                src={
-                  "https://cdn.pixabay.com/photo/2017/09/13/17/45/laptop-2746336_640.png"
-                }
+                src={laptop}
                 alt={""}
               />
               <div className="centered">
