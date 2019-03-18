@@ -19,18 +19,19 @@ class About extends Component {
               <div className="col text-hide ">hidden /></div>
               <div className="col col-8 me">
                 <p>
-                  I’m a software developer with a specialty in JavaScript and
-                  Python. My software development career grew from a curiosity
-                  of wanting to learn about penetration testing. I quickly found
-                  myself staying up late, reading everything I could find to get
-                  a better understanding of the subject. I soon realized that
-                  any legit penetration tester was writing their own code to
-                  achieve the goals they were seeking. Fast forward to today and
-                  that curiosity has turned into a passion for software
-                  development! Here I can talk about my web design abilities
-                  using the lastest tools in web dev such as react and node, but
-                  also legacy tools like Java and Spring. I'll keep this topic
-                  limited to web development.
+                  I'm a one man army but at the same time, I'm not your
+                  traditional web developer; I'm a collective. I pair my talents
+                  with a huge network of world-class professionals of
+                  complementary fields to provide you with the best solution for
+                  your business. I started off with a vision to create a better
+                  life through the power of experience design. More than a
+                  handful of years later, that vision is now a mission, and I
+                  can genuinely say I have fun with it every day — by scrolling
+                  this far, I'm sure you already have a sense of what I mean.
+                  But what really leaves me with a twinkle in the eye is seeing
+                  my clients and end users get a kick out of working with me.
+                  It’s been quite a ride so far. It would be my pleasure to have
+                  you aboard.
                 </p>
                 <img
                   className="rounded-circle img-responsive"

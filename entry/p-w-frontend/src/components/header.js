@@ -22,7 +22,7 @@ class Header extends Component {
                     href=""
                     className="typewrite"
                     data-period="2000"
-                    data-type='[ "Hi, Im Si.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'
+                    data-type='[ "Hi, Im Chris.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'
                   >
                     <span className="wrap" />
                   </a>
@@ -39,7 +39,7 @@ class Header extends Component {
                 I’m a software developer with a specialty in JavaScript and
                 Python. My software development career grew from a curiosity of
                 wanting to learn about penetration testing. I quickly found
-                myself staying up late, reading everything I could find to get a
+                myself staying up late, reading everything I could to get a
                 better understanding of the subject. I soon realized that any
                 legit penetration tester was writing their own code to achieve
                 the goals they were seeking. Fast forward to today and that

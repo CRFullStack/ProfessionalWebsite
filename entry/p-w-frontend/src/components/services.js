@@ -30,18 +30,10 @@ class Services extends Component {
             <br />
             <div className="col">
               <p>
-                I’m a software developer with a specialty in JavaScript and
-                Python. My software development career grew from a curiosity of
-                wanting to learn about penetration testing. I quickly found
-                myself staying up late, reading everything I could find to get a
-                better understanding of the subject. I soon realized that any
-                legit penetration tester was writing their own code to achieve
-                the goals they were seeking. Fast forward to today and that
-                curiosity has turned into a passion for software development!
-                Here I can talk about my web design abilities using the lastest
-                tools in web dev such as react and node, but also legacy tools
-                like Java and Spring. I'll keep this topic limited to web
-                development.
+                I spend day and night designing and developing all sorts of
+                digital products — from websites to fullstack web and mobile
+                apps, among others — that are loyal to both your business
+                objectives and your users’ needs.
               </p>
             </div>
           </div>
@@ -64,18 +56,17 @@ class Services extends Component {
             <br />
             <div className="col col-12">
               <p id="about" className="float-right">
-                I’m a software developer with a specialty in JavaScript and
-                Python. My software development career grew from a curiosity of
-                wanting to learn about penetration testing. I quickly found
-                myself staying up late, reading everything I could find to get a
-                better understanding of the subject. I soon realized that any
-                legit penetration tester was writing their own code to achieve
-                the goals they were seeking. Fast forward to today and that
-                curiosity has turned into a passion for software development!
-                Here I can talk about my web design abilities using the lastest
-                tools in web dev such as react and node, but also legacy tools
-                like Java and Spring. I'll keep this topic limited to web
-                development.
+                Commercial and open source software have a "last mile" problem:
+                that they don't automate every conceivable task. There are still
+                computing chores that require a lot of repetitive (and fairly
+                mindless) typing and clicking. Even if you have an intern to
+                push these tasks on, they're tasks that require a human because
+                there's no software to automate it. These tasks are too
+                small-scale or specific to your organization's workflow for it
+                to be economical for a software company to create a custom
+                solution. This is where I can save the day. With a little bit of
+                coding magic I can write scripts to do these tasks and save your
+                business hours (or weeks or months) of effort.
               </p>
             </div>
           </div>

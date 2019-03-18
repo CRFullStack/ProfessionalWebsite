@@ -2,6 +2,7 @@ var express = require("express");
 var router = express.Router();
 var nodemailer = require("nodemailer");
 const creds = require("../creds/creds");
+const path = require("path");
 const cors = require("cors");
 
 // This grabs the credentials form the creds folder to login into the server
@@ -22,11 +23,6 @@ transporter.verify((error, success) => {
   } else {
     console.log("Server is ready to take messages");
   }
-});
-
-/* GET home page. */
-router.get("/", function(req, res, next) {
-  res.render("index", { title: "Express" });
 });
 
 // Test the send route
@@ -62,6 +58,10 @@ router.post("/send", cors(), (req, res, next) => {
       });
     }
   });
+});
+
+router.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname + "/../p-w-frontend/build/index.html"));
 });
 
 module.exports = router;

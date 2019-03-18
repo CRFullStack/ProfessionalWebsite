@@ -9,7 +9,7 @@ import soon from "../myWork/assest/images/comingsoon.jpg";
 class Clients extends Component {
   render() {
     return (
-      <div>
+      <div id="clients">
         <section className="container-fluid clients h-80 bg-3 text-center">
           <br />
           <br />
@@ -76,14 +76,6 @@ class Clients extends Component {
                 Currently working for Thompson Technologies as a contractor for
                 Chick-fil-A
               </p>
-            </div>
-            <div className="col-sm-3">
-              <img src={soon} className="img-responsive" alt="Image" />
-              <p>New Clients coming soon.</p>
-            </div>
-            <div className="col-sm-3">
-              <img src={soon} className="img-responsive" alt="Image" />
-              <p>New Clients coming soon.</p>
             </div>
             <div className="col-sm-3">
               <img src={soon} className="img-responsive" alt="Image" />
