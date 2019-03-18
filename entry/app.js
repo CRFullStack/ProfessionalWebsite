@@ -14,7 +14,7 @@ app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, "public")));
+
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, "p-w-frontend/build")));
 // parse application/x-www-form-urlencoded
