@@ -60,7 +60,7 @@ router.post("/send", cors(), (req, res, next) => {
   });
 });
 
-router.get("*", (req, res) => {
+router.get("/", (req, res) => {
   res.sendFile(path.join(__dirname + "/../p-w-frontend/build/index.html"));
 });
 

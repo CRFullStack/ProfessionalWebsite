@@ -15,7 +15,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "cd entry\\p-w-frontend && npm start",
     "server": "cd entry && npm start",
-    "start": "concurrently - kill-others \"npm run server\" \"npm run client\""
+    "start": "cd entry && npm start"
   },
   "repository": {
     "type": "git",
